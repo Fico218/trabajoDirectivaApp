@@ -9,11 +9,12 @@ import { Component } from '@angular/core';
 
 
 export class AppComponent {
-  titulo="Registro de Usuarios";
+  titulo="Registro de Usuarios 😎😎😎";
   mensaje="";
   registrado=false;
   nombre:string="";
-  apellido:string="";
+  apellido:string=""; 
+  cargo:string=""; 
   entradas:any;
  
   constructor(){
@@ -31,6 +32,6 @@ export class AppComponent {
 
     this.registrado=true
 
-    this.mensaje="usuario registrado con éxito"
+    this.mensaje="Usuario registrado con éxito 👍👍👍"
   }
 }
